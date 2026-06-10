@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    font-family:Arial;
+}
+
+header{
+    background:#333;
+    color:white;
+    padding:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.hero{
+    text-align:center;
+    margin-top:100px;
+}
+#products{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.product-card{
+    border:1px solid #ddd;
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+    text-align:center;
+}
+
+button{
+    padding:10px;
+    cursor:pointer;
+}
